@@ -37,7 +37,7 @@ def read_data(path):
     propulsion_data=pd.read_csv(path)
     return propulsion_data
 
-def remove_data(data)
+def remove_data(data):
     data=data.drop(columns=["Unnamed: 0"])
     return data
 
